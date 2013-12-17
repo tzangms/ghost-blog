@@ -45,7 +45,13 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://tzangms.herokuapp.com',
-        mail: {},
+        mail: {
+            service: 'Gmail',
+            auth: {
+                user: process.env.EMAIL_USER,
+                pass: process.env.EMAIL_PASSWORD,
+            }
+        },
         database: {
             client: 'mysql',
             connection: {
