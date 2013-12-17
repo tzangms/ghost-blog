@@ -46,10 +46,14 @@ config = {
     production: {
         url: 'http://tzangms.herokuapp.com',
         mail: {
-            service: 'Gmail',
-            auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASSWORD,
+            fromaddress: process.env.EMAIL_USER,
+            transport: 'SMTP',
+            options: {
+                service: 'Gmail',
+                auth: {
+                    user: process.env.EMAIL_USER,
+                    pass: process.env.EMAIL_PASSWORD,
+                }
             }
         },
         database: {
