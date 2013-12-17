@@ -55,6 +55,7 @@ config = {
                 database: process.env.MYSQL_DATABASE,
                 port: '3306'
             }
+        },
         server: {
             host: '0.0.0.0',
             port: process.env.PORT
