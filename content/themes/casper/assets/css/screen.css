@@ -365,7 +365,8 @@ table.plain {
     margin-bottom: 5rem;
     text-align: center;
     color: #fff;
-    background: #303538 no-repeat center center;
+    /* background: #303538 no-repeat center center; */
+    background: url(http://farm8.staticflickr.com/7129/7766938996_d01749649f_h.jpg);
     background-size: cover;
 }
 
@@ -392,6 +393,7 @@ table.plain {
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
+    text-shadow: 2px 2px #333;
 }
 
 .blog-description {
