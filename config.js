@@ -68,7 +68,8 @@ config = {
             accessKeyId: process.env.AWS_ACCESS_KEY_ID,
             secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
             bucket: process.env.AWS_STORAGE_BUCKET_NAME,
-            region: process.env.AWS_REGION
+            region: process.env.AWS_REGION,
+            customDomain: 'blog.tzangms.com'
         },
 
         database: {
