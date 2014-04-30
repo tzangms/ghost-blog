@@ -54,7 +54,7 @@
     "validator": "3.4.0",
     "when": "2.7.0",
     "xml": "0.0.12",
-    "ghost-s3": "0.0.0"
+    "ghost-s3": "tzangms/ghost-s3"
   },
   "optionalDependencies": {
     "mysql": "2.1.1"
